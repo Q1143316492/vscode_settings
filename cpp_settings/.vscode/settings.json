@@ -1,3 +1,26 @@
 {
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "Disabled",
+    // 以像素为单位控制字号。
+    "editor.fontSize": 16,
+
+    // 控制光标动画样式，可能的值为 "blink"、
+    //"smooth"、"phase"、"expand" 和 "solid"
+    "editor.cursorBlinking": "blink",
+    // 控制光标样式，接受的值为 "block"、
+    //"block-outline"、"line"、"line-thin" 、
+    //"underline" 和 "underline-thin"
+    "editor.cursorStyle": "line",
+    // enable formatting for C++ (requires reloading Visual Studio Code)
+    "clang-format.language.cpp.enable": true,
+    // clang-format fallback style for C++, left empty to use clang-format.fallbackStyle
+    "clang-format.language.cpp.fallbackStyle": "WebKit",
+    // clang-format fallback style for C++, left empty to use clang-format.style
+    "clang-format.language.cpp.style": "WebKit",
+    /**
+        LLVM：符合LLVM代码标准的样式
+        Google：符合谷歌的c++样式指南的样式
+        Chromium：符合Chromium样式指南的样式
+        Mozilla：符合Mozilla样式指南的样式
+        WebKit：符合WebKit的样式指南的样式 like this
+    */
 }
